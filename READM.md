@@ -1,1 +1,0 @@
-# holberton-smiling-school-javascript
