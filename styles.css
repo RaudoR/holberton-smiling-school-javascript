@@ -1,174 +1,181 @@
 body {
-    font-family: 'Source Sans Pro' !important;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
-.homepage-header {
-    background-image: url("images/pic_1.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.coiny {
+  font-family: 'Coiny';
+}
+
+header {
+  background-image: url(images/pic_1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .pricing-header {
-    background-image: url("images/pic_2.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-image: url(images/pic_2.jpg);
 }
 
-.course-header {
-    background-image: url("images/pic_3.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.text-responsive {
+  font-size: 10vw;
 }
 
-a {
-    color: white !important;
-    font-weight: bolder;
-    font-size: 0.6rem;
+.black-bg {
+  background-color: #071629;
 }
 
-a:hover {
-    color: #C271FF !important;
-}
-
-.form-control::placeholder {
-    color: white;
-    font-size: 0.8rem;
-    line-height: 0.8rem;
-}
-
-
-.navbar-toggler {
-    width: 55px;
-    height: 45px;
-    background: none;
-    border: 3px solid rgb(187, 126, 12) !important;
-}
-
-.navbar-toggler .line {
-    width: 100%;
-    float: left;
-    height: 2px;
-    background: white;
-    margin: 3px 0 3px;
-}
-
-.navbar-toggler .line2 {
-    width: 70%;
-}
-
-.dropdown-item{
-    color: black !important;
-}
-
-.btn {
-    background-color: #C271FF !important;
-    font-size: 0.7rem;
-}
-
-.bg-btn {
-   opacity: 0.6;
-    background-color: #8519d84f !important;
-}
-
-.btn:hover, .btn:active {
-    color: white !important;
-    font-weight: bolder;
-    opacity: 0.9;
+.gray-bg {
+  background-color: #979797;
 }
 
 .purple-bg {
-    background-color: #C271FF;
-}
-
-.bg-black {
-    background-color: #071629;
+  background-color: #c271ff;
 }
 
 .purple-text {
-    color: #C271FF !important;
+  color: #c271ff;
 }
 
-.sm-text {
-    font-size: 0.8rem;
+.lightpurple-bg {
+  background-color: #d195ff;
 }
 
-.md-text {
-    font-size: 1.6rem;
+.font-60 {
+  font-size: 60px;
 }
 
-.nowrap-text {
-    font-size: 10vw;
+.font-44 {
+  font-size: 44px;
 }
 
-.coiny-tittle {
-    font-family: 'coiny' !important;
-    line-height: 1.4rem;
+.font-32 {
+  font-size: 32px;
 }
 
-.play-img {
-    position: absolute;
-    left: 40%;
-    top: 10%;
+.font-22 {
+  font-size: 22px;
 }
 
-.popular-carousel {
-    width: 270px;
-    margin-left: 10px;
-    margin-right: 10px;
+.font-18 {
+  font-size: 18px;
 }
 
-.star-size {
-    width: 15px;
-    height: 15px;
+.font-14 {
+  font-size: 14px;
 }
 
-.width-text {
-    width: 200px;
+.font-12 {
+  font-size: 12px;
 }
 
-.width-btn {
-    width: 150px;
-}
- .dropdown-toggle::after {
-    float: right;
-    margin-top: 0.45rem;
-}
-
-
-.selected{
-    float: left;
-}
-
-[class^="holberton_school-icon-ic"] {
-    color: white !important;
-    font-size: 37px;
+.holberton_school-icon-arrow_3,
+.holberton_school-icon-arrow_4 {
+  font-size: 5rem;
 }
 
 .holberton_school-icon-check {
-    font-size: 2rem;
-    color: #82D24F !important;
+  font-size: 30px;
+  color: #82d24f;
 }
 
-holberton_school-icon-search_2 {
-    font-size: 25px;
+.arrow-black {
+  color: #000000;
 }
 
-@media only screen and (max-width: 575px) {
-    [class^="carousel-control-"] {
-        height: 15rem;
-    }
+.video-card {
+  width: 255px;
+  height: 335px;
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
-    .popular-carousel {
-        width: 18%;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    .star-size {
-        width: 1.02vw;
-    }
+.play-img {
+  margin: -110px 0 40px 85px;
+}
+
+[class^='holberton_school-icon-ic'] {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.badge:hover,
+.badge:active {
+  opacity: 0.9;
+}
+
+.opacity-50 {
+  opacity: 0.5;
+}
+
+.opacity-35 {
+  opacity: 0.35;
+}
+
+.underline:after {
+  content: '';
+  display: block;
+  height: 3px;
+  background-color: #ffffff;
+  bottom: 5px;
+  border-radius: 3px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ul-courses:after {
+  width: 64px;
+}
+
+.ul-pricing:after {
+  width: 55px;
+}
+
+.dropdown-menu {
+  width: 100%;
+}
+
+.dropdown-spacing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.search-form {
+  height: 50px;
+}
+
+.search-form:focus {
+  background-color: #d195ff;
+}
+
+.search-form::placeholder {
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.icon-bg {
+  background-color: #d195ff;
+  font-size: 28px;
+  padding-top: 10px;
+  padding-left: 10px;
+  border-top-style: rounded;
+}
+
+.loader {
+  border: 10px solid #f3f3f3;
+  border-top: 10px solid #c271ff;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  animation: spin 2s linear infinite;
+  margin: auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
